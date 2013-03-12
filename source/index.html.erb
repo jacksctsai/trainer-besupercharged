@@ -4,22 +4,25 @@ title: SUPERCHARGED
 
 <div id="header">
   <ul id="menu">
-    <li class="menu-item" id="menu-home">Welcome <strong class="menu-st">HOME</strong></li>
-    <li id="menu-from-show-room">From the <strong class="menu-st">SHOWROOM</strong></li>
-    <li id="menu-about" class="menu-item">About & <strong class="menu-st">CONTACT</strong></li>
+    <li id="menu-home" class="menu-item"><a href="#" id="menu-home-link" class="menu-link" title="Home">Welcome <strong class="menu-st">HOME</strong></a></li>
+    <li id="menu-from-show-room" class="menu-item"><a href="#" class="menu-link" id="menu-from-show-room-link" title="From the showroom">From the <strong class="menu-st">SHOWROOM</strong></a></li>
+    <li id="menu-about" class="menu-item"><a href="#" id="menu-about-link" class="menu-link" title="Contact info">About &amp; <strong class="menu-st">CONTACT</strong></a></li>
+    <li id="menu-sublogo">
+      <a href="#" id="small-icon" title="HOME">HOME</a>
+    </li>
   </ul>
-  <a href="#" id="small-icon" title="HOME">HOME</a>
 </div>
 <div id="banner">
+    <div id="banner-divider">Joyously tackling the world's design issues... One paintstaking pixel at a time</div>
 </div>
 <div id="body">
   <div class="column" id="body-left">
-    <h5 id="site-intro"><strong class="body-st">Supercharged</strong> is the personal site of designer <strong class="body-st">Darren Ansley</strong>.</h5>
-    <div id="chatterbox">
-      <h4 id="chatterbox-title">Chatterbox</h4>
+    <h5 id="site-intro" class="side-block"><strong class="body-st">SUPERCHARGED</strong> is the personal site of designer <strong class="body-st">DARREN ANSLEY</strong>.</h5>
+    <div id="chatterbox" class="side-block">
+      <h4 id="chatterbox-title">CHATTERBOX</h4>
       <div id="tweets">
-        <div class="tweet"><a href="#" class="tweet-link" title="@rohdesign">@rohdesign</a> I'm really disappointed in this year's coverage. Pre-race show isn't the same without Craig in the studio with Bob, Phil, & Paul. <a href="#" class="tweetlink" title="2 days ago">2 days ago</a></div>
-        <div class="tweet">Bring Craig, Bob, Paul and Phil back together! NBC messed up a great thing. Used to really enjoy watching Versus converage of the Tour. #fb <a href="#" class="tweetlink" title="2 days ago">2 days ago</a>
+        <div class="tweet"><a href="#" class="tweet-link" title="@rohdesign">@rohdesign</a> I'm really disappointed in this year's coverage. Pre-race show isn't the same without Craig in the studio with Bob, Phil, &amp; Paul. <a href="#" class="tweet-link" title="2 days ago">2 days ago</a></div>
+        <div class="tweet">Bring Craig, Bob, Paul and Phil back together! NBC messed up a great thing. Used to really enjoy watching Versus converage of the Tour. #fb <a href="#" class="tweet-link" title="2 days ago">2 days ago</a>
         </div>
       </div>
       <a href="#" id="stalk-me" title="stalk me">stalk me</a>
@@ -27,40 +30,40 @@ title: SUPERCHARGED
   </div>
   <div id="body-center" class="column">
     <div id="latest-projects">
-      <h4 class="block-title">Latest Projects</h4>
-      <div id="p-fp">
-        <a href="#" id="p-fp-clip" class="" title="Fieldstone Partners"><img src="/img/gallery-1.png" alt="F*P"></a>
+      <h4 class="block-title">LATEST PROJECTS</h4>
+      <div id="p-fp" class="project">
+        <a href="#" id="p-fp-clip" class="p-clip" title="Fieldstone Partners"><img src="/img/gallery-1.png" alt="F*P"></a>
         <a href="#" id="p-fp-link" class="p-link" title="Fieldstone Partners">Fieldstone Partner</a>
       </div>
-      <div id="p-lpl">
-        <a href="#" id="p-lpl-clip" title="Lake Placid Lodge"><img src="/img/gallery-2.png" alt="Lake Placid Lodge"></a>
+      <div id="p-lpl" class="project">
+        <a href="#" id="p-lpl-clip" class="p-clip" title="Lake Placid Lodge"><img src="/img/gallery-2.png" alt="Lake Placid Lodge"></a>
         <a href="#" id="p-fp-link" class="p-link" title="Lake Placid Lodge">Lake Placid Lodge</a>
       </div>
     </div>
     <div id="photography">
-      <h4 class="block-title">Photography</h4>
+      <h4 class="block-title">PHOTOGRAPHY</h4>
       <% (1..4).each do |n| %><a class="photo" href="#" title="Photo <%= n %>"><img src="/img/photo-<%= n %>.png" alt="Photo <%= n %>"></a><% end %>
-      <p><a href="#" id="my-photos" title="Checkout my photos">my photos</a></p>
+      <p id="my-photos"><a href="#" id="my-photos-link" title="Checkout my photos">my photos</a></p>
     </div>
   </div>
   <div id="body-right" class="column">
-    <div id="noteworthy">
-      <h4 id="noteworthy-title">Noteworthy</h4>
+    <div id="noteworthy" class="side-block">
+      <h4 id="noteworthy-title" class="block-title">NOTEWORTHY</h4>
       <h5 class="nt-title">The Clcada Principle and Why It Matters to Web Designers</h5>
       <p class="nt-taster">Using multiple images and math to create natural looking, tiled backgrounds.</p>
       <h5 class="nt-title">Peru's New Brand</h5>
       <p class="nt-taster">Great and memorable mark. Brilliantly executed.</p>
       <h5 class="nt-title">Sass - Syntactically Awesome Stylesheets</h5>
       <p class="nt-taster">Style with attitude. Extension of CSS that allows nesting, variables, and other functions.</p>
-      <p><a href="#" id="more-links" title="more links">more links</a></p>
+      <p id="more-links"><a href="#" id="more-links-link" title="more links">more links</a></p>
     </div>
   </div>
 </div>
 <div id="footer">
   <div id="footer-block1">
     <h4 id="footer-title">Supercharged</h4>
-    <p id="intro-darren-ansley"><img src="/img/w.png" alt="Whiteboard Labs Logo"><a href="#" class="footer-link" title="Darren Ansley">Darren Ansley</a> is a U/Web Designer &amp; Front End Developer living in The Woodlands, TX. I spend my days working for the Houston based web application development company <a href="#" class="footer-link" title="Goto whiteboard labs">Whiteboard Labs</a>.</p>
-    <p id="intro-designgive"><img src="/img/dg.png" alt="Designgive Logo">When I have free time, I spend it working on <a href="#" class="footer-link" title="Goto designgive">Designgive</a>. An apparel site which features artists and gives a portion of the sale to the charity of your choice.</p>
+    <p id="intro-darren-ansley"><img src="/img/w.png" class="illustration" alt="Whiteboard Labs Logo"><a href="#" class="footer-link" title="Darren Ansley">Darren Ansley</a> is a UI/Web Designer &amp; Front End Developer living in The Woodlands, TX. I spend my days working for the Houston based web application development company <a href="#" class="footer-link" title="Goto whiteboard labs">Whiteboard Labs</a>.</p>
+    <p id="intro-designgive"><img src="/img/dg.png" class="illustration" alt="Designgive Logo">When I have free time, I spend it working on <a href="#" class="footer-link" title="Goto designgive">Designgive</a>. An apparel site which features artists and gives a portion of the sale to the charity of your choice.</p>
   </div>
   <div id="footer-block2">
     <p id="copyrights">&copy; 2011 DARREN ANSLEY.</p>
