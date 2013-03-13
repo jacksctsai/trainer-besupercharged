@@ -18,22 +18,22 @@ body
 
 #menu
   +clearfix
-  margin: 0 auto
   width: 920px
+  margin: 0 auto
 
 .menu-item
   +clearfix
-  float: left
-  margin: 0 auto
+  +float-left
   text-align: center
   padding: 80px 0 20px
+  margin: 0 auto
 
 .menu-link
-  color: white
   font-size: 12px
   font-style: italic
-  padding: 0 0 15px
+  color: white
   text-decoration: none
+  padding: 0 0 15px
 
 .menu-link:hover
   background: url( "/img/nav-bg.png" ) repeat-x
@@ -58,44 +58,44 @@ body
   padding: 65px 10px 0 0
 
 #small-icon
-  +clearfix
   +hide-text
+  +clearfix
+  +float-right
   background: url( "/img/sprite/sublogo.png" ) no-repeat
   display: block
-  float: right
-  height: 32px
   width: 32px
+  height: 32px
 
 #banner
   +clearfix
   background: url( "/img/logo.png" ) no-repeat
   background-position: top 80px center
-  margin: 0 auto
   padding: 256px 0 70px
+  margin: 0 auto
 
 #banner-divider
   background: url( "/img/summary-bg.png" ) no-repeat
   background-position: center center
-  color: #a29a80
   font-size: 16px
   font-style: italic
-  margin: 0 auto
+  color: #a29a80
   text-align: center
   width: 1261px
+  margin: 0 auto
 
 #body
   +clearfix
   background: url( "/img/line-fade.png" ) no-repeat
   background-position: top center
-  color: white
   font-size: 14px
-  margin: 0 auto
-  padding: 50px
+  color: white
   width: 900px
+  padding: 50px
+  margin: 0 auto
 
 .column
   +clearfix
-  float: left
+  +float-left
 
 #body-left
 
@@ -139,13 +139,13 @@ body
   +hide-text
   background: url( "/img/sprite/twitter.png" )
   display: block
-  height: 12px
   width: 64px
+  height: 12px
 
 #body-center
   +clearfix
-  padding: 0 20px
   width: 540px
+  padding: 0 20px
 
 #latest-projects
   +clearfix
@@ -158,18 +158,18 @@ body
   padding: 5px 0 15px
 
 .project
-  float: left
+  +float-left
 
 .p-clip
   display: block
 
 .p-link
-  color: $default-light-color
-  display: block
   font-style: italic
   font-size: 12px
+  color: $default-light-color
   text-align: center
   text-decoration: none
+  display: block
   padding: 10px 0
 
 #my-photos
@@ -179,8 +179,8 @@ body
   +hide-text
   background: url( "/img/sprite/flickr.png" ) no-repeat
   display: block
-  height: 14px
   width: 74px
+  height: 14px
 
 #noteworthy
   font-family: $default-font
@@ -189,8 +189,8 @@ body
   line-height: 18px
 
 .nt-title
-  font-weight: bold
   font-size: 11px
+  font-weight: bold
 
 .nt-taster
   padding: 0 0 10px
@@ -202,45 +202,45 @@ body
   +hide-text
   background: url( "/img/sprite/delicious.png" )
   display: block
-  height: 14px
   width: 75px
+  height: 14px
 
 #footer
   +clearfix
   background: url( "/img/line.png" ) no-repeat
   background-position: top center
-  color: $default-color
   font-family: $default-font
   font-size: 13px
+  color: $default-color
   padding: 0 0 80px
 
 #footer-block1
   +clearfix
   line-height: 18px
-  margin: 0 auto
-  padding: 0 0 30px
   width: 880px
+  padding: 0 0 30px
+  margin: 0 auto
 
 #footer-title
-  color: $default-light-color
-  float: left
+  +float-left
   font-size: 15px
   font-weight: bold
-  padding: 40px 0 0
+  color: $default-light-color
   width: 160px
+  padding: 40px 0 0
 
 #intro-darren-ansley
-  float: left
-  padding: 40px 0 0 5px
+  +float-left
   width: 350px
+  padding: 40px 0 0 5px
 
 #intro-designgive
-  float: left
-  padding: 40px 0 0 45px
+  +float-left
   width: 290px
+  padding: 40px 0 0 45px
 
 .illustration
-  float: left
+  +float-left
   padding: 0 8px 8px 0
 
 .footer-link
@@ -251,20 +251,20 @@ body
   +clearfix
   background: url( "/img/footer-border.png" ) no-repeat
   background-position: top center
-  clear: both
   font-size: 11px
-  margin: 0 auto
-  padding: 15px 0 0
+  clear: both
   width: 880px
+  padding: 15px 0 0
+  margin: 0 auto
 
 #copyrights
-  float: left
+  +float-left
   padding: 8px 0 0
 
 #all-size-devices
+  +float-right
   background: url( "/img/screens.png" ) no-repeat
   background-position: top left
-  float: right
+  width: 200px
   height: 28px
   padding: 8px 0 0 110px
-  width: 200px
