@@ -19,7 +19,7 @@ title: SUPERCHARGED
   </ul>
 </div>
 <div id="banner">
-    <div id="banner-divider">Joyously tackling the world's design issues... One paintstaking pixel at a time</div>
+    <h2 id="banner-divider">Joyously tackling the world's design issues... One paintstaking pixel at a time</h2>
 </div>
 <div id="body">
   <div class="column" id="body-left">
@@ -36,18 +36,26 @@ title: SUPERCHARGED
   <div id="body-center" class="column">
     <div id="latest-projects">
       <h4 class="block-title">LATEST PROJECTS</h4>
-      <div id="p-fp" class="project">
-        <a href="#" id="p-fp-clip" class="p-clip" title="Fieldstone Partners"><img src="/img/gallery-1.png" alt="F*P"></a>
-        <a href="#" id="p-fp-link" class="p-link" title="Fieldstone Partners">Fieldstone Partner</a>
-      </div>
-      <div id="p-lpl" class="project">
-        <a href="#" id="p-lpl-clip" class="p-clip" title="Lake Placid Lodge"><img src="/img/gallery-2.png" alt="Lake Placid Lodge"></a>
-        <a href="#" id="p-fp-link" class="p-link" title="Lake Placid Lodge">Lake Placid Lodge</a>
-      </div>
+      <h5 id="p-fp" class="project">
+        <a href="#" id="p-fp-clip" class="p-clip" title="Fieldstone Partners">
+          <img src="/img/gallery-1.png" alt="F*P">
+        </a>
+        <p class="p-title">
+          <a href="#" id="p-fp-link" class="p-link" title="Fieldstone Partners">Fieldstone Partner</a>
+        </p>
+      </h5>
+      <h5 id="p-lpl" class="project">
+        <a href="#" id="p-lpl-clip" class="p-clip" title="Lake Placid Lodge">
+          <img src="/img/gallery-2.png" alt="Lake Placid Lodge">
+        </a>
+        <div class="p-title">
+          <a href="#" id="p-fp-link" class="p-link" title="Lake Placid Lodge">Lake Placid Lodge</a>
+        </div>
+      </h5>
     </div>
     <div id="photography">
       <h4 class="block-title">PHOTOGRAPHY</h4>
-      <% (1..4).each do |n| %><a class="photo" href="#" title="Photo <%= n %>"><img src="/img/photo-<%= n %>.png" alt="Photo <%= n %>"></a><% end %>
+      <% (1..4).each do |n| %><a class="photo-link" href="#" title="Photo <%= n %>"><img class="photo" src="/img/photo-<%= n %>.png" alt="Photo <%= n %>"></a><% end %>
       <p id="my-photos"><a href="#" id="my-photos-link" title="Checkout my photos">my photos</a></p>
     </div>
   </div>
@@ -66,9 +74,9 @@ title: SUPERCHARGED
 </div>
 <div id="footer">
   <div id="footer-block1">
-    <h4 id="footer-title">Supercharged</h4>
-    <p id="intro-darren-ansley"><img src="/img/w.png" class="illustration" alt="Whiteboard Labs Logo"><a href="#" class="footer-link" title="Darren Ansley">Darren Ansley</a> is a UI/Web Designer &amp; Front End Developer living in The Woodlands, TX. I spend my days working for the Houston based web application development company <a href="#" class="footer-link" title="Goto whiteboard labs">Whiteboard Labs</a>.</p>
-    <p id="intro-designgive"><img src="/img/dg.png" class="illustration" alt="Designgive Logo">When I have free time, I spend it working on <a href="#" class="footer-link" title="Goto designgive">Designgive</a>. An apparel site which features artists and gives a portion of the sale to the charity of your choice.</p>
+    <h4 id="footer-title"><a id="footer-title-link" href="#" title="Supercharged">Supercharged</a></h4>
+    <p id="intro-darren-ansley"><a href="#" class="footer-link" title="Darren Ansley"><img src="/img/w.png" class="illustration" alt="Whiteboard Labs Logo"></a><a href="#" class="footer-link" title="Darren Ansley">Darren Ansley</a> is a UI/Web Designer &amp; Front End Developer living in The Woodlands, TX. I spend my days working for the Houston based web application development company <a href="#" class="footer-link" title="Goto whiteboard labs">Whiteboard Labs</a>.</p>
+    <p id="intro-designgive"><a href="#" class="footer-link" title="Designgive"><img src="/img/dg.png" class="illustration" alt="Designgive Logo"></a>When I have free time, I spend it working on <a href="#" class="footer-link" title="Goto designgive">Designgive</a>. An apparel site which features artists and gives a portion of the sale to the charity of your choice.</p>
   </div>
   <div id="footer-block2">
     <p id="copyrights">&copy; 2011 DARREN ANSLEY.</p>
